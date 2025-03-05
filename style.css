@@ -1,0 +1,414 @@
+@font-face {
+    font-family: machina;
+    src: url(./3856NeueMachina.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+}
+
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  padding: 22px 120px;
+}
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+}
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+nav h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav button{
+padding: 15px 25px;
+border-radius: 10px;
+font-size: 17px;
+background-color: transparent;
+cursor: pointer;
+border: 1.6px solid black;
+}
+
+.center{
+    /* background-color: crimson; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    padding: 60px 120px;
+    margin-bottom: 10px;
+}
+.center-part1{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 32%;
+}
+.center-part1 h1{
+    font-size: 45px;
+    font-family: machina;
+    line-height: 1.2;
+
+}
+.center-part1 p{
+   font-size: 15px;
+   
+   font-weight: 500;
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+.center-part1 button{
+ background-color: #111;
+ color: #fff;
+ padding: 15px 35px;
+ font-size: 15px;
+ border-radius: 10px;
+ font-weight: 600;
+ border: none;
+ cursor: pointer;
+ 
+}
+.center-part2{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 68%;
+    position: relative;
+    
+}
+
+.center-part2 img{
+    position: absolute;
+    right: 10%;
+height: 100%;
+
+}
+.section1bottom{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px;
+    margin-top: 0px;
+}
+.section1bottom img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+  
+}
+
+/* .section2{
+    height: 100vh;
+    width: 100%;
+} */
+
+.section2 .services{
+    
+    padding: 30px 120px;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-top: 10px;
+   
+    
+}
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 1px 0px 1px ;
+    border-radius: 3px;
+    font-size: 35px;
+    font-family:machina ;
+
+}
+.services p{
+    width: 40%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container{
+   height: 88%;
+  
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.container .elem{
+    flex-shrink: 0;
+ 
+    height: 265px;
+    width: 49%;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px black;
+    padding: 40px;
+    position: relative;
+    display: flex;
+
+}
+.elem .elempart1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+}
+.elem .elempart2 {
+    height: 100%;
+    width: 50%;
+   
+}
+.elem .elempart2 img{
+   
+   height: 100%;
+   width: 100%;
+}
+
+.elempart1 h2{
+    font-size: 35px;
+    background-color: #9AE975;
+    font-weight: 500;
+    font-family: machina;
+    border-radius: 7px;
+   
+ 
+}
+.elempart1 h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+  
+}
+.elempart1 h4 i{
+padding: 5px;
+background-color: #111;
+color: #fff;
+border-radius: 50%;
+}
+.black{
+    background-color: #111;
+
+}
+.black img{
+   filter: invert(1); 
+
+}
+.black h4{
+    color: #fff;
+}
+.black h4 i{
+    background-color: #fff;
+    color: #111;
+}
+.black h2{
+    background-color: #fff;
+}
+/* section3  */
+
+.section3{
+height: 100vh;
+    width: 100%;
+    padding: 150px 120px;
+}
+
+
+.container2 {
+    height: 450px;
+    width:100%;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+   display: flex;
+   
+   
+}
+.container2 .part1{
+    height: 100%;
+    width: 60%;
+    
+    
+    padding: 100px 70px;
+}
+.part1 h3{
+    width: 95%;
+   
+    font-size: 45px;
+    font-family: machina;
+    margin-bottom: 30px;
+    font-weight:600
+}
+.part1 p{
+    width: 80%;
+   
+    font-size: 22px;
+    font-weight:500;
+    margin-bottom: 40px;
+    
+}
+.part1 button{
+    background-color: #111;
+ color: #fff;
+ padding: 15px 35px;
+ font-size: 15px;
+ border-radius: 10px;
+ font-weight: 600;
+ border: none;
+ cursor: pointer; 
+}
+
+.container .part2 {
+    height: 100%;
+    width: 40%;
+    position: relative;
+  
+   
+}
+.part2 img{
+right: 15%;
+top: 20%;
+height: 350px;
+width: 350px;
+position: absolute;
+ object-fit: contain;
+ 
+}
+
+/* section4 */
+
+.section4{
+    padding: 50px 120px;
+   
+}
+.case-study{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px;
+   
+}
+
+.case-study h3{
+    background-color: #9AE975;
+    font-size: 35px;
+    font-family: machina;
+    padding: 0px 1px 0px;
+    font-weight: 500;
+    width:fit-content;
+    
+}
+.case-study p{
+    font-size: 20px;
+    width: 53%;
+    font-weight: 500;
+ 
+}
+
+.container3{
+    height: 400px;
+    width: 100%;
+    background-color: #1F1F1F;
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+ 
+  
+}
+.container3 .box{
+    display: flex;
+   
+    align-items: center;
+   
+ 
+}
+.container3 .box1{
+    height: 100%;
+    width: 33.333%;
+  
+  
+    
+}
+.container3 .box2{
+    height: 100%;
+    width: 33.333%;
+ 
+   
+ 
+}
+.container3 .box3{
+
+    height: 100%;
+    width: 33.333%;
+    
+  
+   
+}
+.container3 .part2{
+    height: 60%;
+    width: 1px;
+    background-color: #fff;
+    
+  
+}
+.container3 .part1{
+  width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+    padding: 70px;
+    
+  
+}
+.container3 .part1 p{
+    width: 100%;
+}
+.learn-more {
+    color: #9AE975;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn-more i{
+   color: #9AE975;
+}
